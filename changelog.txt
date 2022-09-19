@@ -1,0 +1,19 @@
+/*
+    Theme Name: creativex
+	Theme URI: http://shtheme.com/demosd/creativex
+	Author: Shtheme
+	Author URI: https://themeforest.net/user/shtheme
+    Release Date: 01 August 2022
+    Requirements: WordPress 4.0 or higher, PHP 5
+    Compatibility: WordPress 4.9.1
+    Tags: web app
+    Last Update Date: 01 August 2022
+*/
+
+/**** Changelog ****/
+
+"Please backup your theme pack files at first before you update the theme into the latest version"
+
+
+2022.08.01 - version 1.0.0
+- First release.

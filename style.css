@@ -1,0 +1,221 @@
+/*
+Theme Name: Sanspace
+Theme URI: github.com/aratane
+Author: Sanji
+Author URI: github.com/sanjifxt
+Description: Sanspace is a fully responsive theme with a modern design suitable for all creative fields. The theme is featuring a powerful fullscreen background video and imagery making it a perfect choice for photographers, artists and designers who want to showcase their work.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: sanspace
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* ========TABLE OF CONTENTS==========
+00. Body, links, hgroup, paragraphs, general styles
+01. Fixed header & Navigation
+02. Section Intro (Home)
+03. Section About
+04. Section Resume
+05. Section Portfolio
+06. Section Blog
+07. Section Contact
+08. Footer
+09. Loader
+10. Responsive design
+
+/*--------------------------------------------------
+    00. Body, links, hgroup, paragraphs, general styles
+---------------------------------------------------*/
+
+
+
+
+::placeholder {
+    color: #222;
+}
+
+#contact-form ::placeholder {
+    color: #fff;
+}
+
+div.divider-m+ul li a {
+    color: #5f5f5f;
+    text-decoration: none;
+    outline: none;
+    font-weight: 600;
+}
+
+.recentcomments .comment-author-link a {
+    text-transform: capitalize;
+}
+
+.comment-form-cookies-consent {
+    display: none;
+}
+
+.profile-photo {
+    height: 128px;
+}
+
+ul.children {
+    padding-left: 75px;
+}
+
+p.comment-form-cookies-consent+div {
+    margin-top: 100px;
+}
+
+p.logged-in-as {
+    padding-left: 15px;
+}
+
+a.comment-reply-link {
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 10px;
+
+}
+
+.comment-respond h1 a {
+    color: #ffffff00;
+}
+
+.comment-respond h1 a:hover {
+    font-weight: 600;
+}
+
+.comment-respond h1 small a#cancel-comment-reply-link {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 20px;
+    border: 2px solid #fff;
+    padding: 8px 10px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 100px;
+    color: #fff;
+}
+
+div#contact-form form div.more-wraper-center.more-wraper-center-form p {
+    margin-top: -130px;
+}
+
+div#contact-form form div.more-wraper-center.more-wraper-center-form p input.more-button-txt-center {
+    border-bottom: 0;
+    font-family: 'Oswald';
+    color: #b2b2b2;
+}
+
+div#contact-form form div.more-wraper-center.more-wraper-center-form p span.wpcf7-spinner {
+    margin-left: 10px;
+}
+
+div.wpcf7-response-output {
+    color: #fff;
+    border-color: #fff !important;
+}
+
+.extra-margin-container .blog-search {
+    width: 100%;
+    text-align: center;
+}
+
+.extra-margin-container .blog-search form input.search {
+    width: 45%;
+    padding: 9px 12px;
+    background: #fff;
+    position: relative;
+    margin-top: 10px;
+    border: 0;
+    text-transform: capitalize;
+}
+
+.extra-margin-container .blog-search form button#submit-btn {
+    font-size: 20px;
+    position: absolute;
+    border: 0;
+    padding: 5px 12px;
+    margin-top: 10px;
+    background: #fff;
+}
+
+div.upper-page#page-home {
+    height: 100vh;
+}
+
+div.lower-page-testimonials div.center-container {
+    height: 75vh;
+}
+
+.owl-carousel .owl-item img {
+    height: 66vh;
+}
+
+@media only screen and (min-width: 768px) {
+    .lower-page-works {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 996px) {
+    div.lower-page-testimonials div.center-container {
+        height: 100%;
+    }
+}
+
+.logo .logo-img {
+    display: block;
+    width: 57px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.logo .logo-img::before {
+    display: none;
+}
+
+.excerpt {
+    color: #fff;
+}
+
+.pagination-wrap {
+    text-align: center;
+}
+
+ul.pagination li span,
+ul.pagination li a {
+    position: relative;
+    float: left;
+    padding: 0px 19px;
+    text-decoration: none;
+    background-color: #111;
+    border: 1px solid #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50% !important;
+    color: #fff;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.pagination span.current {
+    background: #fff;
+    color: #111;
+    border-color: #fff;
+    line-height: 50px;
+    text-align: center;
+}
+
+.pagination li span:hover,
+.pagination li a:hover {
+    color: #111;
+    background-color: #fff;
+    border-color: #fff;
+}
